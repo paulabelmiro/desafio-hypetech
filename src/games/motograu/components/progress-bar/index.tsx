@@ -25,6 +25,8 @@ const getBackgroundColor = (color: string) => {
       return 'bg-rose-700'
     case 'gray':
       return 'bg-gray-400'
+    case 'white':
+      return 'bg-slate-50'  
   }
 }
 
@@ -46,7 +48,7 @@ function ProgressBar(props) {
           transitionDuration: '10000ms',
         }}
       ></div>
-      <span className="top-1 left-[17%] sm:left-[30%] lg:left-[35%] uppercase absolute text-xs text-white font-bold">
+      <span className="top-1 left-[17%] sm:left-[30%] lg:left-[35%] uppercase absolute text-sm text-white font-bold">
         Próxima rodada
       </span>
     </div>

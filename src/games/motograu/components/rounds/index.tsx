@@ -15,7 +15,7 @@ function Rounds(props: Props) {
   const odds = useSelector((state) => state.odd.odds)
 
   return (
-    <div className="flex flex-col h-10">
+    <div className="flex flex-col h-10 absolute top-50">
       <div className="flex flex-row-reverse pointer-events-auto gap-2 overflow-x-auto scrollbar-h-1 scrollbar-track-slate-500 scrollbar-thumb-slate-700 scrollbar scrollbar-track-rounded scrollbar-thumb-rounded">
         {[...odds].reverse().map((item, index) => {
           switch (item.color) {

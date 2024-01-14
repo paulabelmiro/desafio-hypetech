@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+"use strict";/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './index.html',
@@ -14,7 +14,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Roboto', 'sans-serif'],
-      bungee: ['Bungee Spice', 'sans-serif'],
+      'bungee'
     },
     extend: {
       colors: {
@@ -72,4 +72,4 @@ module.exports = {
     },
   ],
   darkMode: 'class',
-}
+} /* v7-aa667da6d17466ec */

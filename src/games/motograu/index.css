@@ -1,22 +1,69 @@
 .motograu-game {
-  background: linear-gradient(133deg,#00000017 0%,#1c101d 50%,#462948a2 100%)!important;
+  background: linear-gradient(
+    90deg,
+    #121212 0%,
+    #171217 25%,
+    #1d151f 50%,
+    #171217 75%,
+    #121212 100%
+  ) !important;
 }
 
-.motograu-game .transaction-bar {
-  --tw-bg-opacity: 0.20;
-  --tw-border-opacity: 0.20;
+.motograu-game .navbar button {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
+.motograu-game .navbar h1 img {
+  width: 8rem;
+  height: auto;
+  position: relative;
+  top: 25px;
+  left: 120px;
+}
+
+@media screen and (max-width: 1140px) {
+  .motograu-game .navbar h1 img {
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .motograu-game .navbar h1 img {
+    width: 5rem;
+    top: 6px;
+    left: 10px;
+  }
+}
+
+.motograu-game .transaction-bar,
 .motograu-game .crash-form {
-  --tw-bg-opacity: 0.20;
-  --tw-border-opacity: 0.20;
+  background-color: #1d151f52;
+  --tw-bg-opacity: 0.2;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 3px 8px 8px;
 }
 
 .motograu-game .results-bar {
-  background: linear-gradient(133deg,#00000017 0%,#1c101d 50%,#462948a2 100%)!important;
+  background: linear-gradient(
+    90deg,
+    #121212 0%,
+    #171217 25%,
+    #1d151f 50%,
+    #171217 75%,
+    #121212 100%
+  ) !important;
 }
 
 .motograu-game .chat-container {
-  background: linear-gradient(133deg,#000000 0%,#1c101d 50%,#462948 100%)!important
- }
- 
+  background: linear-gradient(
+    90deg,
+    #121212 0%,
+    #171217 25%,
+    #1d151f 50%,
+    #171217 75%,
+    #121212 100%
+  ) !important;
+  right: 10px;
+  top: 53px;
+}
