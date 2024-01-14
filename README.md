@@ -4,17 +4,9 @@
 
 <img src="https://hypetech.games/assets/images/branding/dark.png" alt="Hypetech" width="350"/>
 
-Seja bem-vindo ao Desafio Prático de Frontend Hypetech.
+Este projeto faz parte da entrega do Desafio Prático de Frontend Hypetech.
 
-Com um catálogo de 15 jogos, distribuídos atualmente para mais de 250 plataformas e meio milhão de jogadores, a Hypetech é uma produtora e provedora de jogos internacional de Jogos Gambling Justos, com foco em criar jogos para o público LATAM.
-
-Todos os nossos jogos são jogos [Provably Fair](https://provablyfair.org/), promovendo uma experiência de jogo justa, confiável e transparente aos jogadores.
-
-Neste desafio prático o seu objetivo será atuar de forma livre na interface de dois jogos da Hypetech.
-
-Selecionamos dois jogos para este desafio: **Motograu** e **WallStreet**. Ambos são jogos que vão entrar no mercado em Janeiro, e escolheremos a melhor interface de cada um para ser a interface oficial do jogo.
-
-Além disso, o objetivo do desafio é selecionar e premiar os melhores frontends avaliados neste desafio.
+Neste desafio foi proposta a escolha entre dois jogos disponível para trabalhar com o frontend, minha escolha foi o jogo **Motograu**. Esta escolha teve como base uma pesquisa prévia de funcionamento dos jogos, onde obtive uma melhor compreensão do fluxo de funcionamento do jogo escolhido.
 
 
 ## Sobre o Motograu
@@ -25,50 +17,17 @@ Caso a aposta seja encerrada pelo jogador antes do Motoqueiro ser derrubado, o v
 
 As rodadas são automáticas e os resultados são transmitidos ao vivo aos jogadores, fornecendo a todos os jogadores as mesmas probabilidades imparciais ao mesmo tempo, 24 horas por dia, 7 dias por semana.
 
+### Exemplo de Layout Proposto
 ![UI MotoGrau](https://i.ibb.co/42BnW3g/MotoGrau.png)
 
-
-
-## Sobre o WallStreet
-	
-O Wallstreet é um jogo de predição de tendência, inspirado na plataforma IQ Option. O Objetivo é "adivinhar" qual será a próxima tendência do mercado: subir, descer, ou manter (Bull).
-
-Caso o jogador acerte as tendências de Subida ou Descida, seu prêmio é o valor apostado 2x. Caso acerte a tendência Bull, seu prêmio é o valor apostado 20x.
-
-![UI WallStreet](https://i.ibb.co/yPCK0mG/Wall-Street.png)
-
-
-## Orientações
-
-**Essa sessão traz orientações-base para a execução do desafio:**
-
-1. Criamos **interfaces funcionais de exemplo** para o **Motograu** e **WallStreet**. Nesta interface estão inclusos todos os componentes e funcionalidades básicas e obrigatórias. **Inicie seu desenvolvimento a partir dela**.
-2. As animações de ambos os jogos são compiladas, portanto, elas não devem ser alteradas, apenas os elementos de UI.
-3. Não modifique os componentes globais (core), eles servem apenas como base.
-4. Você é livre para criar novos componentes que gerem valor. **Exemplo:** 
-	- Contagem de players online;
-	- Chat visível;
-	- Notificações e animações visuais;
-	- Outras informações que possam ser interessante para o jogador;
-
-
-## Avaliação
-
-**Você será avaliado com base nos seguintes critérios:**
-
-- Abordagem técnica;
-- Qualidade e clareza do código;
-- Feeling, criatividade e qualidade na concepção da UI e UX;
+### Layout Desenvolvido
+![UI Motograu Realizado](/motograu-tela-principal.png)
 
 
 ## Stacks
 - React
 - TailwindCss
 - Websocket
-
-## Plus
-Utilize uma biblioteca gráfica, como Apex Chart, para desenvolver um gráfico inspirado na IQ Option.
-
 
 
 # Instruções técnicas
